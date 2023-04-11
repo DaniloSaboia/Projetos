@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label fx:id="labelWelcome" alignment="CENTER" layoutX="21.0" layoutY="24.0" text="Welcome!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonScale" layoutX="75.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#onButtonScale05Clicked" prefHeight="26.0" prefWidth="44.0" text="0.5" />
+      <Label fx:id="LabelScale" layoutX="16.0" layoutY="165.0" text="Please Submit scale &#10;&#9;(2 or 0.5)" />
+      <Button fx:id="ButtonGreenEffect" layoutX="43.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#onButtonGreenRemoveClicked" text="Submit" />
+      <Button fx:id="ButtonSepiaEffect" layoutX="43.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#onButtonSerpiaEffectClicked" text="Submit" />
+      <Label fx:id="labelGreenEffect" layoutX="14.0" layoutY="84.0" text="Remove Green effect" />
+      <Label fx:id="LabelSepiaEffect" layoutX="50.0" layoutY="289.0" text="Sepia Effect" />
+      <Label fx:id="labelScale2" layoutX="278.0" layoutY="243.0" />
+      <Button fx:id="ButtonScale2" layoutX="21.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#onButtonScale2Clicked" prefHeight="26.0" prefWidth="44.0" text="2" />
+      <SubScene fx:id="SubScene1" height="360.0" layoutX="219.0" layoutY="24.0" width="353.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+   </children>
+</AnchorPane>
